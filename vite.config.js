@@ -8,5 +8,6 @@ export default defineConfig({
     jsxFragment: "_jsxFragment",
     jsxInject: `import { createElement as _jsx, Fragment as _jsxFragment } from 'react'`,
   },
+  base: "/brujula-react/",
   plugins: [reactRefresh()],
 });
